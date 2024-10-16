@@ -3,3 +3,9 @@ mkdir fetchjson
 npm init -y
 
 npm install axios
+npm install axios@0.27.2
+
+tsc index.ts
+
+npm i --save-dev typescript
+npm install
