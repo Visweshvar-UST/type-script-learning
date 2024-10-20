@@ -10,4 +10,17 @@
     <button id="btn">click me...</button>
     <h1 id="hres"></h1>
 </body>
+<script>
+    let c = 0;
+
+    const btn = document.querySelector("#btn");
+    const hres = document.querySelector("#hres");
+
+    btn.onclick = () => {
+        btn.textContent = ("Try again");
+        c+=1;
+        hres.textContent = `${c} count`;
+
+    };
+</script>
 </html>
